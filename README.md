@@ -1,6 +1,6 @@
 # jOrgChart
 
-This plugin allows you to draw a tree with the distribution of child nodes in two modes. The first mode is a traditional (horizontal) - sibling nodes are placed in a horizontal row, and a second mode (vertical) - All subsequent nodes are arranged in a vertical row.
+This plugin allows you to draw a tree with the distribution of child nodes in two modes. The first mode is a traditional (horizontal) - sibling nodes are placed in a horizontal row, and a second mode (vertical) - all subsequent nodes are arranged in a vertical row.
 
 Based on the work of Wes Nolte (without drag and drops mode)
 https://github.com/wesnolte/jOrgChart
