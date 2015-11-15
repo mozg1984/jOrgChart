@@ -4,7 +4,6 @@ This plugin allows you to draw a tree with the distribution of child nodes in tw
 
 Based on the work of Wes Nolte (without drag and drops mode)
 https://github.com/wesnolte/jOrgChart
-
 And based on the work of Dmitry Sinyavsky (css - rules for vertical nodes)
 http://habrahabr.ru/post/55753/
 
