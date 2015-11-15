@@ -24,6 +24,8 @@ Vertical mode view example:
 <li>depth - max level of hierarchy (integer);</li>
 </ul>
 
+Default type of render mode is horizontal. If you need to change it to vertical add attribute in &lt;ul&gt; container - type="vertical". An additional requirement to the ul-li list the each last &lt;li&gt; elements must be complement by class "last" (&lt;li class="last"&gt;).   
+
 <pre>
 // ...in your project
 
