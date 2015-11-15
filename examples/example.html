@@ -1,0 +1,190 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xml:lang="ru" xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta content="text/html; charset=utf-8" http-equiv="content-type"/>
+		<title>Tree test</title>
+		<script type="text/javascript" src="jquery.js"></script>
+		<link href="orgchart/orgchart.css" rel="stylesheet" type="text/css"/>
+		<script type="text/javascript" src="orgchart/orgchart.js"></script>
+		<script>
+		$(document).ready(function () {
+			// create a tree
+			$("#tree-data").jOrgChart({
+				chartElement: $("#tree-view"), 
+				nodeClicked: nodeClicked
+			});
+			
+			// lighting a node in the selection
+			function nodeClicked(node, type) {
+				node = node || $(this);
+				$('.jOrgChart .selected').removeClass('selected');
+				node.addClass('selected');
+			}
+		});
+		</script>
+	</head>
+	<body>
+		<ul id="tree-data" style="display:none">
+			<li id="root">
+				root
+				<ul>
+					<li id="node1">
+						node1
+					</li>					
+					<li id="node2">
+						node2
+						<ul>
+							<li id="node3">
+								node3
+								<ul>
+									<li id="node4">
+										node4
+										<ul type="vertical">
+											<li id="node5">
+												node5
+												<ul>
+													<li id="node6">
+														node6
+													</li>
+													
+													<li id="node7">
+														node7
+													</li>
+												</ul>
+											</li>
+											<li id="node8" class="last">
+												node8
+												<ul>
+													<li id="node9">
+														node9
+													</li>
+													
+													<li id="node10">
+														node10
+													</li>
+												</ul>
+											</li>
+										</ul>									
+									</li>									
+									<li id="node11">
+										node11
+										<ul type="vertical">
+											<li id="node12">
+												node12
+												<ul>
+													<li id="node13">
+														node13
+													</li>
+													
+													<li id="node14">
+														node14
+													</li>
+												</ul>
+											</li>
+											<li id="node15" class="last">
+												node15
+												<ul>
+													<li id="node16">
+														node16
+													</li>
+													
+													<li id="node17">
+														node17
+													</li>
+												</ul>
+											</li>
+										</ul>
+									</li>
+								</ul>
+							</li>
+							<li id="node18" class="last">
+								node18
+								<ul>
+									<li id="node19">
+										node19
+									</li>
+									
+									<li id="node20">
+										node20
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</li>					
+					<li id="node21">
+						node21
+						<ul type="vertical">
+							<li id="node22">
+								node22
+								<ul>
+									<li id="node23">
+										node23
+									</li>
+									
+									<li id="node24">
+										node24
+									</li>
+								</ul>
+							</li>
+							<li id="node25" class="last">
+								node25
+								<ul>
+									<li id="node26">
+										node26
+									</li>
+									
+									<li id="node27">
+										node27
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</li>					
+					<li id="node28" class="last">
+						node28
+						<ul>
+							<li id="node29">
+								node29
+								<ul type="vertical">
+									<li id="node30">
+										node30
+										<ul>
+											<li id="node31">
+												node31
+											</li>
+											
+											<li id="node32">
+												node32
+											</li>
+										</ul>
+									</li>
+									<li id="node33" class="last">
+										node33
+										<ul>
+											<li id="node34">
+												node34
+											</li>
+											
+											<li id="node35">
+												node35
+											</li>
+										</ul>
+									</li>
+								</ul>
+							</li>
+							
+							<li id="node36">
+								node36
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+			<li id="node37">
+				node37
+			</li>
+		</ul>
+		
+		<div id="tree-view"></div>		
+	</body>
+</html>
