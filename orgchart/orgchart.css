@@ -1,3 +1,7 @@
+table {/* reset width */
+	width: auto;
+}
+
 /* Horizontal drawing (default) styles */
 
 /* Draw the lines */
@@ -83,7 +87,7 @@
 }
 
 .jOrgChart .multi-tree span {
-	width: 113px;
+	width: 109px;
 	text-decoration: none;
 	display: block;
 	margin: 0 0 0 1.2em;
