@@ -13,4 +13,8 @@ Horizontal -default- mode view example:
 Vertical mode view example:
 <img alt="jQuery jOrgChart plugin (vertical mode)" title="jQuery jOrgChart plugin (vertical mode)" src="https://00c51259-a-62cb3a1a-s-sites.googlegroups.com/site/mozg1984/download/Tree-vertical.png?attachauth=ANoY7crrh3O2tRh-700beLKv5zAc3pujKYjooLujWgGEsHGJD5Zr3E1NgpRBcQT8miERenruB8ytgNp8aocvKC_AF02A5BMNmxt2Lry3bOGfI3Vs5pjat2jRC3w4IqAQUH4n3NYyPsGXWgN9tABhbxQ5s1ZMdML0SCa7OBWBvr2wLS-BokEDM0HsQimAhOakqn1SHYixOjMQDSJ0RhvyU1BvMYUhAKLmwpEJXG9hoqJAqErdXxgb2HE%3D&attredirects=0"/>
 
-Licensed under the MIT and GPL licenses.
+#Notice
+This plugin was created in a short time to solve the urgent task. Therefore cross-browser compatibility has not been tested. 
+
+#License 
+Under the MIT and GPL licenses.
