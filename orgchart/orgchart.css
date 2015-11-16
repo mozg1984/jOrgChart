@@ -1,5 +1,6 @@
-table {/* reset width */
-	width: auto;
+.jOrgChart table {
+	width: 100%;
+	table-layout: fixed;
 }
 
 /* Horizontal drawing (default) styles */
